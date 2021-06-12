@@ -1,0 +1,68 @@
+something content had viewed
+
+localhost:8000/ul/value
+ 
+      Hi Welcome ?
+
+
+    DTL:[Django Template Language]
+    ==============================
+
+    variable -> {{variablename}}
+
+    conditional statements:
+
+    {% if condition %}
+    //stmnts
+    {% endif %}
+
+   {% if condition %}
+       //stmnts
+    {% elif condition %}
+       //stmnts
+    {% else %}
+       //stmnts
+    {% endif %}
+       //stmnts
+
+
+     Loops:
+     ======
+     {% for iterationvariable in iterator %}
+
+         //stmnts
+      {% endfor %}
+
+
+      url -> views -> Browser
+
+      url -> views -> template -> Browser
+
+      CSS Styling:
+      ============
+         - Inline -> Within a tag
+         - Internal -> seperators,tag,id -> #,class -> . ->
+         <style>
+         h2
+         {
+            property:value;
+            property1:value1;
+         }
+         </style>
+         - External -> .css[External file => Link]
+
+
+    External:
+    =========
+    static
+        css -> styling
+        js -> validation
+        jquery -> action
+        images -> .extension 
+
+     url -> vies -> template -> views -> template
+
+     static
+     {% load static %}
+
+     <link rel="stylesheet" href="{% static 'css/filename.extension' %}"
