@@ -1,0 +1,14 @@
+
+
+### internalJS and externalJs
+### Navigating form data from one html to another html.
+
+    urls -> views -> templates -> urls -> views -> templates
+
+    -form Methods:
+       here we are 2 different types
+         - get
+           - by default html form will consider get method
+           - here we can't provide security
+         - post
+           - here we  will provide security
